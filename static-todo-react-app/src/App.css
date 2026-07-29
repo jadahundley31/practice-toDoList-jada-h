@@ -2,9 +2,17 @@
     text-align: center;
 }
 .todoTasks {
-    list-style-type: “U+2620”;
-    padding-left: 1.5em;
+    display: inline-block;
+    text-align: left;
+    padding-left: 1.5rem;
 }
-li {
-    padding-left: 0.5em;
+.todoTasks li::marker {
+    content: "💀";
+    font-size: 1.2rem;
+}
+.todoTasks li {
+    margin-left: 2.5rem;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
